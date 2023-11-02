@@ -1,0 +1,135 @@
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  height: 610px;
+  width: 685px;
+  display: grid;
+  grid-template-columns: repeat(13,50px);
+  grid-auto-columns: 50px;
+  grid-template-rows: repeat(14,50px);
+  gap: 3px;
+  background-color: black;
+}
+
+.item {
+  background-color: rgb(191, 217, 238);
+}
+
+#one {
+  grid-area: 1/1/2/4;
+   
+}
+
+#two {
+  grid-area: 1/4/2/9;
+    
+}
+
+#three {
+  grid-area: 1/13/10/-1;
+    
+}
+
+#four {
+  grid-area: 2/1/6/2;
+  
+}
+
+#five {
+  grid-area: 6/9/9/11;
+    
+}
+
+#six {
+  grid-area: 6/11/9/13;
+    
+}
+
+#seven {
+  grid-area: 6/1/11/2 ;
+    
+}
+
+#eight {
+  grid-area: 9/5/11/9;
+   
+}
+
+#nine {
+  grid-area: 9/9/10/13;
+  
+}
+
+#ten {
+  grid-area: 12/2/12/5;
+  height: 30px
+    
+}
+
+#eleven {
+  grid-area: 11/5/11/9;
+    
+}
+
+#twelve {
+  grid-area: 12/5/12/13;
+  height: 30px
+    
+}
+
+#yellowcolumn2 {
+  grid-area: 1/9/2/13;
+  background-color: rgb(209, 245, 5);
+
+}
+
+#yellowrow2 {
+  grid-area: 11/1/12/2;
+  background-color: rgb(209, 245, 5);
+  height: 80px;
+  
+}
+
+#yellowsquare {
+  grid-area: 2/9/6/13;
+  background-color: rgb(209, 245, 5);
+  
+}
+
+#redrow2 {
+  grid-area: 10/13/12/14;
+  background-color: rgb(161, 28, 11);
+  height: 132px
+  
+}
+
+#redsquare {
+  grid-area: 2/2/9/9;
+  background-color: rgb(161, 28, 11);
+  
+}
+
+#blackcolumn2  {
+  grid-area: 12/5/13/13;
+  background-color: rgb(0, 0, 0);
+  height: 20px;
+}
+
+#blacksquare {
+  grid-area: 9/2/12/5 ;
+  background-color: black;
+  
+}
+
+#blue {
+  grid-area: 10/9/12/13;
+  background-color: rgb(6, 5, 58);
+  height: 125px;
+}
+
